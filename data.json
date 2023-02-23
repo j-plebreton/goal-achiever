@@ -1,0 +1,37 @@
+{
+    "goals": ["sleep", "eat", "work", "play", "exercise", "read", "learn"],
+    "evnironments": [
+        {
+            "name": "home",
+            "goals": [
+                "sleep",
+                "eat",
+                "work",
+                "play",
+                "exercise",
+                "read",
+                "learn"
+            ]
+        },
+        {
+            "name": "work",
+            "goals": ["work", "eat", "exercise", "read", "learn"]
+        },
+        {
+            "name": "school",
+            "goals": ["work", "eat", "exercise", "read", "learn"]
+        },
+        {
+            "name": "gym",
+            "goals": ["exercise"]
+        },
+        {
+            "name": "library",
+            "goals": ["read"]
+        },
+        {
+            "name": "classroom",
+            "goals": ["work", "learn"]
+        }
+    ]
+}

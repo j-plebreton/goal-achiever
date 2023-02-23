@@ -1,0 +1,92 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Layout styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.select-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-wrapper label {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+select {
+    height: 150px;
+    width: 200px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+select:hover,
+select:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.compatible-environments {
+    margin-top: 2em;
+    text-align: center;
+    height: 400px; /* set a fixed height */
+    overflow-y: auto; /* add scrollbar when necessary */
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.compatible-environments h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.compatible-environments ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.compatible-environments li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.compatible-environments li:hover,
+.compatible-environments li:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
